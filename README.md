@@ -15,3 +15,6 @@ Some tests with the ZX code. For now, on MacOS tested the toolchain
 * [ZX Book](https://computerarchive.org/files/comp/books/ZX%20spectrum/EasyProgrammingForTheZXSpectrum.pdf)
 * [Article](https://chuntey.wordpress.com/2012/12/18/how-to-write-zx-spectrum-games-chapter-1/)
 * [Article 2](https://retrocomputing.stackexchange.com/questions/3314/how-were-the-first-zx-spectrum-games-written)
+* [Creating custom loading screen](https://github.com/mosaicmap/zxs_data2tap)
+* [Bas2Tap](https://github.com/andybalaam/bas2tap)
+* [Article](https://www.futurice.com/blog/build-environment-like-its-1986/)
