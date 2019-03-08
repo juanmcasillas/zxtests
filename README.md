@@ -22,6 +22,7 @@ Some tests with the ZX code. For now, on MacOS tested the toolchain
 * [Article 2](https://retrocomputing.stackexchange.com/questions/3314/how-were-the-first-zx-spectrum-games-written)
 * [Creating custom loading screen](https://github.com/mosaicmap/zxs_data2tap)
 * [Speccy](http://www.speccy.org/)
+* [Tutorial z88dk](https://wiki.speccy.org/cursos/z88dk/introduccion)
 
 * [Article](https://www.futurice.com/blog/build-environment-like-its-1986/)
 * [Books](https://computerarchive.org/files/comp/books/ZX%20spectrum/)
