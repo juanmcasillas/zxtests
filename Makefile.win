@@ -1,0 +1,26 @@
+# http://cs.colby.edu/maxwell/courses/tutorials/maketutor/
+CC = zcc
+CFLAGS = +zx -vn -startup=1 -clib=new -SO3 --max-allocs-per-node200000 -Wall 
+DEPS = 
+all:	bundle
+
+%.o: %.c $(DEPS)
+	$(CC) $(CFLAGS) -c -o $@ $< 
+
+hello: hello.o
+	$(CC) $(CFLAGS) -o $@ $^ -create-app
+
+loader: 
+	../bas2tap25-win/bas2tap -a10 -sLOADER loader.bas loader.tap
+
+loading_screen:
+	../pasmo --tap --name SCREEN loading_screen.asm loading_screen.tap LS.TXT
+	
+
+bundle: loader loading_screen hello
+	cat loader.tap loading_screen.tap hello.tap > bundle.tap
+
+.PHONY:	clean
+
+clean:
+	rm -f *_CODE.bin *_UNASSIGNED.bin *.tap *.TAP *.o LS.TXT
