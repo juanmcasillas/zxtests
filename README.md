@@ -28,3 +28,5 @@ Some tests with the ZX code. For now, on MacOS tested the toolchain
 * [Books](https://computerarchive.org/files/comp/books/ZX%20spectrum/)
 * [Curso de radastan](http://www.bytemaniacos.com/ficheros/zxspectrum/cursoz88dkbasico.pdf)
 * [Churrera de los Mojon Twins](http://www.elmundodelspectrum.com/taller.php)
+* [BeepOla](http://freestuff.grok.co.uk/beepola/)
+* [BeepFX](http://www.mojontwins.com/mojoniaplus/viewtopic.php?t=1595)
